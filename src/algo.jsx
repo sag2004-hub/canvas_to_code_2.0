@@ -1364,7 +1364,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div className="bg-slate-800 border-b border-slate-700 p-3 flex items-center gap-4">
                 <div className="flex items-center gap-2">
                     <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full animate-pulse"></div>
-                    <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Mini-Figma Pro</h1>
+                    <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">PixelCraft</h1>
                 </div>
 
                 <div className="relative">
@@ -1655,7 +1655,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div className="text-center space-y-6">
                                 <div className="w-32 h-32 mx-auto bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full flex items-center justify-center border-2 border-blue-500/30"><FileText size={48} className="text-blue-400" /></div>
                                 <div className="space-y-2">
-                                    <h2 className="text-2xl font-bold text-white">Welcome to Mini-Figma Pro</h2>
+                                    <h2 className="text-2xl font-bold text-white">Welcome to PixelCraft</h2>
                                     <p className="text-gray-400 max-w-md">Create stunning designs with our powerful vector editor. Choose a canvas size to get started.</p>
                                 </div>
                                 <button onClick={() => setShowCanvasDropdown(true)} className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-lg font-medium transition-all duration-200 transform hover:scale-105 flex items-center gap-2 mx-auto"><Plus size={20} />Create New Canvas</button>

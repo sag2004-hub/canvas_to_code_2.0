@@ -1,12 +1,75 @@
-# React + Vite
+# 🎨 PixelCraft - Modern Design Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PixelCraft is a powerful web-based vector design tool built with React and Firebase, offering real-time collaboration and modern design capabilities.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🖌️ Vector-based design tools
+- 🤝 Real-time collaboration
+- 🔄 Smart prototyping capabilities
+- 🎯 Precise drawing and shape tools
+- 🎨 Advanced styling options
+- 🔐 Secure authentication with Firebase
+- 📱 Responsive and mobile-friendly
+- 🚀 Fast performance with Vite
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- Firebase (Authentication & Firestore)
+- Framer Motion
+- Tailwind CSS
+- Lucide Icons
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/pixelcraft.git
+```
+
+2. Install dependencies:
+```bash
+cd pixelcraft
+npm install
+```
+
+3. Set up Firebase:
+   - Create a Firebase project
+   - Enable Authentication and Firestore
+   - Add your Firebase config to `src/firebase.js`
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## 🎯 Core Features
+
+- **Vector Drawing**: Create precise shapes and designs
+- **Smart Tools**: Rectangle, Ellipse, Line, Path, and Text tools
+- **Style Controls**: Colors, gradients, borders, and effects
+- **User Management**: Authentication and user profiles
+- **Real-time Updates**: Collaborative editing capabilities
+- **Export Options**: Export designs in various formats
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
