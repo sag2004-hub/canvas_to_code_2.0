@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link, useNavigate } from 'react-router-dom'
+import { PenTool } from 'lucide-react'
 import { auth, db, googleProvider } from './firebase'
 import {
   createUserWithEmailAndPassword,
@@ -286,15 +287,7 @@ const SignUp = () => {
         <div className='w-full lg:w-2/5 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 p-6 flex flex-col justify-center items-center relative overflow-hidden'>
           {/* Background pattern */}
           <div className='absolute inset-0 opacity-10'>
-            <FloatingElement delay={0}>
-              <div className='absolute top-12 left-12 w-16 h-16 bg-white rounded-full'></div>
-            </FloatingElement>
-            <FloatingElement delay={2}>
-              <div className='absolute bottom-16 right-8 w-12 h-12 bg-white rounded-lg rotate-45'></div>
-            </FloatingElement>
-            <FloatingElement delay={4}>
-              <div className='absolute top-1/3 right-16 w-10 h-20 bg-white rounded-full'></div>
-            </FloatingElement>
+            {/* Removed floating white elements */}
           </div>
 
           <motion.div
@@ -305,17 +298,11 @@ const SignUp = () => {
           >
             <div className='flex items-center justify-center mb-3'>
               <motion.div
-                className='flex items-center justify-center w-10 h-10 bg-white bg-opacity-10 rounded-xl mr-2 backdrop-blur-sm'
+                className='flex items-center justify-center mr-2'
                 whileHover={{ rotate: 10, scale: 1.05 }}
                 transition={{ type: 'spring', stiffness: 300 }}
               >
-                <svg
-                  className='w-6 h-6 text-white'
-                  fill='currentColor'
-                  viewBox='0 0 24 24'
-                >
-                  <path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5' />
-                </svg>
+                <PenTool className='w-6 h-6 text-white' />
               </motion.div>
               <h1 className='text-2xl font-bold text-white'>PixelCraft</h1>
             </div>
